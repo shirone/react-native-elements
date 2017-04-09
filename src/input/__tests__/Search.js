@@ -1,5 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
+import toJson from 'enzyme-to-json';
 import Search from '../Search';
 
 describe('Search component', () => {
@@ -7,6 +8,6 @@ describe('Search component', () => {
     const component = shallow(<Search />);
 
     expect(component.length).toBe(1);
-    expect(component).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

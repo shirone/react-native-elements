@@ -1,5 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
+import toJson from 'enzyme-to-json';
 import Icon from '../Icon';
 
 describe('Icon component', () => {
@@ -7,6 +8,6 @@ describe('Icon component', () => {
     const component = shallow(<Icon name="wifi"/>);
 
     expect(component.length).toBe(1);
-    expect(component).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

@@ -1,5 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
+import toJson from 'enzyme-to-json';
 import ListItem from '../ListItem';
 
 describe('ListItem component', () => {
@@ -7,6 +8,6 @@ describe('ListItem component', () => {
     const component = shallow(<ListItem />);
 
     expect(component.length).toBe(1);
-    expect(component).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

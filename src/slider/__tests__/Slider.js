@@ -1,5 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
+import toJson from 'enzyme-to-json';
 import Slider from '../Slider';
 
 describe('Slider component', () => {
@@ -7,6 +8,6 @@ describe('Slider component', () => {
     const component = shallow(<Slider />);
 
     expect(component.length).toBe(1);
-    expect(component).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });
