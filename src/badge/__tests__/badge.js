@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import toJson from 'enzyme-to-json';
-import Badge from '../Badge';
+import Badge from '../badge';
 
 describe('FeaturedTitle component', () => {
   it('should render without issues', () => {
