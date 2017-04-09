@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormInput Component should render without issues 1`] = `
+exports[`FeaturedTitle component should render without issues 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -12,74 +12,96 @@ ShallowWrapper {
     style={
         Array [
             Object {
-              "borderBottomColor": "#bdc6cf",
-              "borderBottomWidth": 1,
-              "marginLeft": 20,
-              "marginRight": 20,
+              "backgroundColor": "#444",
+              "borderRadius": 20,
+              "padding": 12,
+              "paddingBottom": 3,
+              "paddingTop": 3,
+              "position": "absolute",
+              "right": 30,
+              "top": 2,
             },
             undefined,
           ]
     }
 >
-    <TextInput
-        selectionColor="#86939e"
+    <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
         style={
             Array [
                 Object {
-                  "color": "#86939e",
-                  "fontSize": 17.5,
-                  "height": 36,
-                  "width": 750,
+                  "color": "white",
+                  "fontSize": 14,
                 },
                 undefined,
               ]
         }
-    />
+    >
+        3
+    </Text>
 </View>,
   "nodes": Array [
     <View
       style={
             Array [
                   Object {
-                    "borderBottomColor": "#bdc6cf",
-                    "borderBottomWidth": 1,
-                    "marginLeft": 20,
-                    "marginRight": 20,
+                    "backgroundColor": "#444",
+                    "borderRadius": 20,
+                    "padding": 12,
+                    "paddingBottom": 3,
+                    "paddingTop": 3,
+                    "position": "absolute",
+                    "right": 30,
+                    "top": 2,
                   },
                   undefined,
                 ]
       }
 >
-      <TextInput
-            selectionColor="#86939e"
+      <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
             style={
                   Array [
                         Object {
-                          "color": "#86939e",
-                          "fontSize": 17.5,
-                          "height": 36,
-                          "width": 750,
+                          "color": "white",
+                          "fontSize": 14,
                         },
                         undefined,
                       ]
             }
-      />
+      >
+            3
+      </Text>
 </View>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 0,
+      "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <FormInput />,
+      "_currentElement": <Badge
+        badge={
+                Object {
+                        "value": 3,
+                      }
+        }
+/>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": FormInput {
+      "_instance": StatelessComponent {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "badge": Object {
+            "value": 3,
+          },
+        },
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -104,58 +126,70 @@ ShallowWrapper {
           style={
                     Array [
                               Object {
-                                "borderBottomColor": "#bdc6cf",
-                                "borderBottomWidth": 1,
-                                "marginLeft": 20,
-                                "marginRight": 20,
+                                "backgroundColor": "#444",
+                                "borderRadius": 20,
+                                "padding": 12,
+                                "paddingBottom": 3,
+                                "paddingTop": 3,
+                                "position": "absolute",
+                                "right": 30,
+                                "top": 2,
                               },
                               undefined,
                             ]
           }
 >
-          <TextInput
-                    selectionColor="#86939e"
+          <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
                     style={
                               Array [
                                         Object {
-                                          "color": "#86939e",
-                                          "fontSize": 17.5,
-                                          "height": 36,
-                                          "width": 750,
+                                          "color": "white",
+                                          "fontSize": 14,
                                         },
                                         undefined,
                                       ]
                     }
-          />
+          >
+                    3
+          </Text>
 </View>,
         "_debugID": 2,
         "_renderedOutput": <View
           style={
                     Array [
                               Object {
-                                "borderBottomColor": "#bdc6cf",
-                                "borderBottomWidth": 1,
-                                "marginLeft": 20,
-                                "marginRight": 20,
+                                "backgroundColor": "#444",
+                                "borderRadius": 20,
+                                "padding": 12,
+                                "paddingBottom": 3,
+                                "paddingTop": 3,
+                                "position": "absolute",
+                                "right": 30,
+                                "top": 2,
                               },
                               undefined,
                             ]
           }
 >
-          <TextInput
-                    selectionColor="#86939e"
+          <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
                     style={
                               Array [
                                         Object {
-                                          "color": "#86939e",
-                                          "fontSize": 17.5,
-                                          "height": 36,
-                                          "width": 750,
+                                          "color": "white",
+                                          "fontSize": 14,
                                         },
                                         undefined,
                                       ]
                     }
-          />
+          >
+                    3
+          </Text>
 </View>,
       },
       "_renderedNodeType": 1,
@@ -168,6 +202,12 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <FormInput />,
+  "unrendered": <Badge
+    badge={
+        Object {
+            "value": 3,
+          }
+    }
+/>,
 }
 `;

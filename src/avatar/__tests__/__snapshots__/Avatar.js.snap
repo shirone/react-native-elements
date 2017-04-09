@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icon component should render without issues 1`] = `
+exports[`FeaturedTitle component should render without issues 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -9,32 +9,39 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <View
+    activeOpacity={undefined}
+    onLongPress={undefined}
     onPress={undefined}
     style={
         Array [
-            false,
-            false,
-            false,
             Object {
-              "alignItems": "center",
               "backgroundColor": "transparent",
-              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
             },
             undefined,
           ]
     }
-    underlayColor="white"
 >
-    <Icon
-        allowFontScaling={false}
-        color="black"
-        name="wifi"
-        size={24}
+    <View
         style={
             Array [
                 Object {
-                  "backgroundColor": "transparent",
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "backgroundColor": "rgba(0,0,0,0.2)",
+                  "bottom": 0,
+                  "flex": 1,
+                  "height": 34,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 34,
                 },
+                undefined,
                 undefined,
               ]
         }
@@ -42,32 +49,39 @@ ShallowWrapper {
 </View>,
   "nodes": Array [
     <View
+      activeOpacity={undefined}
+      onLongPress={undefined}
       onPress={undefined}
       style={
             Array [
-                  false,
-                  false,
-                  false,
                   Object {
-                    "alignItems": "center",
                     "backgroundColor": "transparent",
-                    "justifyContent": "center",
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
                   },
                   undefined,
                 ]
       }
-      underlayColor="white"
 >
-      <Icon
-            allowFontScaling={false}
-            color="black"
-            name="wifi"
-            size={24}
+      <View
             style={
                   Array [
                         Object {
-                          "backgroundColor": "transparent",
+                          "alignItems": "center",
+                          "alignSelf": "stretch",
+                          "backgroundColor": "rgba(0,0,0,0.2)",
+                          "bottom": 0,
+                          "flex": 1,
+                          "height": 34,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 34,
                         },
+                        undefined,
                         undefined,
                       ]
             }
@@ -80,30 +94,14 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Icon
-        color="black"
-        name="wifi"
-        raised={false}
-        reverse={false}
-        reverseColor="white"
-        size={24}
-        underlayColor="white"
-/>,
+      "_currentElement": <Avatar />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": StatelessComponent {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {
-          "color": "black",
-          "name": "wifi",
-          "raised": false,
-          "reverse": false,
-          "reverseColor": "white",
-          "size": 24,
-          "underlayColor": "white",
-        },
+        "props": Object {},
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -125,32 +123,39 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <View
+          activeOpacity={undefined}
+          onLongPress={undefined}
           onPress={undefined}
           style={
                     Array [
-                              false,
-                              false,
-                              false,
                               Object {
-                                "alignItems": "center",
                                 "backgroundColor": "transparent",
-                                "justifyContent": "center",
+                                "paddingBottom": 10,
+                                "paddingRight": 10,
+                                "paddingTop": 10,
                               },
                               undefined,
                             ]
           }
-          underlayColor="white"
 >
-          <Icon
-                    allowFontScaling={false}
-                    color="black"
-                    name="wifi"
-                    size={24}
+          <View
                     style={
                               Array [
                                         Object {
-                                          "backgroundColor": "transparent",
+                                          "alignItems": "center",
+                                          "alignSelf": "stretch",
+                                          "backgroundColor": "rgba(0,0,0,0.2)",
+                                          "bottom": 0,
+                                          "flex": 1,
+                                          "height": 34,
+                                          "justifyContent": "center",
+                                          "left": 0,
+                                          "position": "absolute",
+                                          "right": 0,
+                                          "top": 0,
+                                          "width": 34,
                                         },
+                                        undefined,
                                         undefined,
                                       ]
                     }
@@ -158,32 +163,39 @@ ShallowWrapper {
 </View>,
         "_debugID": 2,
         "_renderedOutput": <View
+          activeOpacity={undefined}
+          onLongPress={undefined}
           onPress={undefined}
           style={
                     Array [
-                              false,
-                              false,
-                              false,
                               Object {
-                                "alignItems": "center",
                                 "backgroundColor": "transparent",
-                                "justifyContent": "center",
+                                "paddingBottom": 10,
+                                "paddingRight": 10,
+                                "paddingTop": 10,
                               },
                               undefined,
                             ]
           }
-          underlayColor="white"
 >
-          <Icon
-                    allowFontScaling={false}
-                    color="black"
-                    name="wifi"
-                    size={24}
+          <View
                     style={
                               Array [
                                         Object {
-                                          "backgroundColor": "transparent",
+                                          "alignItems": "center",
+                                          "alignSelf": "stretch",
+                                          "backgroundColor": "rgba(0,0,0,0.2)",
+                                          "bottom": 0,
+                                          "flex": 1,
+                                          "height": 34,
+                                          "justifyContent": "center",
+                                          "left": 0,
+                                          "position": "absolute",
+                                          "right": 0,
+                                          "top": 0,
+                                          "width": 34,
                                         },
+                                        undefined,
                                         undefined,
                                       ]
                     }
@@ -200,14 +212,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Icon
-    color="black"
-    name="wifi"
-    raised={false}
-    reverse={false}
-    reverseColor="white"
-    size={24}
-    underlayColor="white"
-/>,
+  "unrendered": <Avatar />,
 }
 `;

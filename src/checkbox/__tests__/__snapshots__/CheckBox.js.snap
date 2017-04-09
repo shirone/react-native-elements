@@ -11,8 +11,6 @@ ShallowWrapper {
   "node": <TouchableOpacity
     activeOpacity={0.2}
     focusedOpacity={0.7}
-    onLongPress={undefined}
-    onPress={undefined}
     style={
         Array [
             Object {
@@ -69,8 +67,6 @@ ShallowWrapper {
     <TouchableOpacity
       activeOpacity={0.2}
       focusedOpacity={0.7}
-      onLongPress={undefined}
-      onPress={undefined}
       style={
             Array [
                   Object {
@@ -179,8 +175,6 @@ ShallowWrapper {
         "_currentElement": <TouchableOpacity
           activeOpacity={0.2}
           focusedOpacity={0.7}
-          onLongPress={undefined}
-          onPress={undefined}
           style={
                     Array [
                               Object {
@@ -237,8 +231,6 @@ ShallowWrapper {
         "_renderedOutput": <TouchableOpacity
           activeOpacity={0.2}
           focusedOpacity={0.7}
-          onLongPress={undefined}
-          onPress={undefined}
           style={
                     Array [
                               Object {

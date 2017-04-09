@@ -3,7 +3,8 @@ import { Text, View, StyleSheet } from 'react-native';
 
 let styles = {};
 
-const Badge = ({ badge }) => {
+const Badge = props => {
+  const { badge } = props;
   if (badge.element) return badge.element;
   return (
     <View style={[ styles.badge, badge.badgeContainerStyle ]}>

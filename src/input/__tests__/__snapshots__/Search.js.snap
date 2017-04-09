@@ -24,43 +24,8 @@ ShallowWrapper {
     }
 >
     <TextInput
-        autoCapitalize={undefined}
-        autoCorrect={undefined}
-        autoFocus={undefined}
-        blurOnSubmit={undefined}
-        clear={undefined}
-        clearButtonMode={undefined}
-        clearTextOnFocus={undefined}
-        dataDetectorTypes={undefined}
-        defaultValue={undefined}
-        editable={undefined}
-        enablesReturnKeyAutomatically={undefined}
-        inlineImageLeft={undefined}
-        inlineImagePadding={undefined}
-        isFocused={undefined}
-        keyboardAppearance={undefined}
-        keyboardType={undefined}
-        maxLength={undefined}
-        multiline={undefined}
-        numberOfLines={undefined}
-        onBlur={undefined}
-        onChange={undefined}
-        onChangeText={undefined}
-        onContentSizeChange={undefined}
-        onEndEditing={undefined}
-        onFocus={undefined}
-        onKeyPress={undefined}
-        onLayout={undefined}
-        onSelectionChange={undefined}
-        onSubmitEditing={undefined}
-        placeholder={undefined}
         placeholderTextColor="#86939e"
-        returnKeyLabel={undefined}
-        returnKeyType={undefined}
-        secureTextEntry={undefined}
-        selectTextOnFocus={undefined}
         selectionColor="#86939e"
-        selectionState={undefined}
         style={
             Array [
                 Object {
@@ -81,7 +46,6 @@ ShallowWrapper {
               ]
         }
         underlineColorAndroid="transparent"
-        value={undefined}
     />
     <Icon
         allowFontScaling={false}
@@ -118,43 +82,8 @@ ShallowWrapper {
       }
 >
       <TextInput
-            autoCapitalize={undefined}
-            autoCorrect={undefined}
-            autoFocus={undefined}
-            blurOnSubmit={undefined}
-            clear={undefined}
-            clearButtonMode={undefined}
-            clearTextOnFocus={undefined}
-            dataDetectorTypes={undefined}
-            defaultValue={undefined}
-            editable={undefined}
-            enablesReturnKeyAutomatically={undefined}
-            inlineImageLeft={undefined}
-            inlineImagePadding={undefined}
-            isFocused={undefined}
-            keyboardAppearance={undefined}
-            keyboardType={undefined}
-            maxLength={undefined}
-            multiline={undefined}
-            numberOfLines={undefined}
-            onBlur={undefined}
-            onChange={undefined}
-            onChangeText={undefined}
-            onContentSizeChange={undefined}
-            onEndEditing={undefined}
-            onFocus={undefined}
-            onKeyPress={undefined}
-            onLayout={undefined}
-            onSelectionChange={undefined}
-            onSubmitEditing={undefined}
-            placeholder={undefined}
             placeholderTextColor="#86939e"
-            returnKeyLabel={undefined}
-            returnKeyType={undefined}
-            secureTextEntry={undefined}
-            selectTextOnFocus={undefined}
             selectionColor="#86939e"
-            selectionState={undefined}
             style={
                   Array [
                         Object {
@@ -175,7 +104,6 @@ ShallowWrapper {
                       ]
             }
             underlineColorAndroid="transparent"
-            value={undefined}
       />
       <Icon
             allowFontScaling={false}
@@ -262,43 +190,8 @@ ShallowWrapper {
           }
 >
           <TextInput
-                    autoCapitalize={undefined}
-                    autoCorrect={undefined}
-                    autoFocus={undefined}
-                    blurOnSubmit={undefined}
-                    clear={undefined}
-                    clearButtonMode={undefined}
-                    clearTextOnFocus={undefined}
-                    dataDetectorTypes={undefined}
-                    defaultValue={undefined}
-                    editable={undefined}
-                    enablesReturnKeyAutomatically={undefined}
-                    inlineImageLeft={undefined}
-                    inlineImagePadding={undefined}
-                    isFocused={undefined}
-                    keyboardAppearance={undefined}
-                    keyboardType={undefined}
-                    maxLength={undefined}
-                    multiline={undefined}
-                    numberOfLines={undefined}
-                    onBlur={undefined}
-                    onChange={undefined}
-                    onChangeText={undefined}
-                    onContentSizeChange={undefined}
-                    onEndEditing={undefined}
-                    onFocus={undefined}
-                    onKeyPress={undefined}
-                    onLayout={undefined}
-                    onSelectionChange={undefined}
-                    onSubmitEditing={undefined}
-                    placeholder={undefined}
                     placeholderTextColor="#86939e"
-                    returnKeyLabel={undefined}
-                    returnKeyType={undefined}
-                    secureTextEntry={undefined}
-                    selectTextOnFocus={undefined}
                     selectionColor="#86939e"
-                    selectionState={undefined}
                     style={
                               Array [
                                         Object {
@@ -319,7 +212,6 @@ ShallowWrapper {
                                       ]
                     }
                     underlineColorAndroid="transparent"
-                    value={undefined}
           />
           <Icon
                     allowFontScaling={false}
@@ -356,43 +248,8 @@ ShallowWrapper {
           }
 >
           <TextInput
-                    autoCapitalize={undefined}
-                    autoCorrect={undefined}
-                    autoFocus={undefined}
-                    blurOnSubmit={undefined}
-                    clear={undefined}
-                    clearButtonMode={undefined}
-                    clearTextOnFocus={undefined}
-                    dataDetectorTypes={undefined}
-                    defaultValue={undefined}
-                    editable={undefined}
-                    enablesReturnKeyAutomatically={undefined}
-                    inlineImageLeft={undefined}
-                    inlineImagePadding={undefined}
-                    isFocused={undefined}
-                    keyboardAppearance={undefined}
-                    keyboardType={undefined}
-                    maxLength={undefined}
-                    multiline={undefined}
-                    numberOfLines={undefined}
-                    onBlur={undefined}
-                    onChange={undefined}
-                    onChangeText={undefined}
-                    onContentSizeChange={undefined}
-                    onEndEditing={undefined}
-                    onFocus={undefined}
-                    onKeyPress={undefined}
-                    onLayout={undefined}
-                    onSelectionChange={undefined}
-                    onSubmitEditing={undefined}
-                    placeholder={undefined}
                     placeholderTextColor="#86939e"
-                    returnKeyLabel={undefined}
-                    returnKeyType={undefined}
-                    secureTextEntry={undefined}
-                    selectTextOnFocus={undefined}
                     selectionColor="#86939e"
-                    selectionState={undefined}
                     style={
                               Array [
                                         Object {
@@ -413,7 +270,6 @@ ShallowWrapper {
                                       ]
                     }
                     underlineColorAndroid="transparent"
-                    value={undefined}
           />
           <Icon
                     allowFontScaling={false}

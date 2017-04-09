@@ -9,23 +9,9 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <TouchableHighlight
-    Ripple={undefined}
-    SelectableBackground={undefined}
-    SelectableBackgroundBorderless={undefined}
     activeOpacity={0.85}
-    background={undefined}
-    delayLongPress={undefined}
-    delayPressIn={undefined}
-    delayPressOut={undefined}
     disabled={false}
-    hitSlop={undefined}
-    onHideUnderlay={undefined}
-    onLayout={undefined}
-    onLongPress={undefined}
     onPress={[Function]}
-    onPressIn={undefined}
-    onPressOut={undefined}
-    onShowUnderlay={undefined}
     underlayColor="transparent"
 >
     <View
@@ -79,23 +65,9 @@ ShallowWrapper {
 </TouchableHighlight>,
   "nodes": Array [
     <TouchableHighlight
-      Ripple={undefined}
-      SelectableBackground={undefined}
-      SelectableBackgroundBorderless={undefined}
       activeOpacity={0.85}
-      background={undefined}
-      delayLongPress={undefined}
-      delayPressIn={undefined}
-      delayPressOut={undefined}
       disabled={false}
-      hitSlop={undefined}
-      onHideUnderlay={undefined}
-      onLayout={undefined}
-      onLongPress={undefined}
       onPress={[Function]}
-      onPressIn={undefined}
-      onPressOut={undefined}
-      onShowUnderlay={undefined}
       underlayColor="transparent"
 >
       <View
@@ -183,23 +155,9 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <TouchableHighlight
-          Ripple={undefined}
-          SelectableBackground={undefined}
-          SelectableBackgroundBorderless={undefined}
           activeOpacity={0.85}
-          background={undefined}
-          delayLongPress={undefined}
-          delayPressIn={undefined}
-          delayPressOut={undefined}
           disabled={false}
-          hitSlop={undefined}
-          onHideUnderlay={undefined}
-          onLayout={undefined}
-          onLongPress={undefined}
           onPress={[Function]}
-          onPressIn={undefined}
-          onPressOut={undefined}
-          onShowUnderlay={undefined}
           underlayColor="transparent"
 >
           <View
@@ -253,23 +211,9 @@ ShallowWrapper {
 </TouchableHighlight>,
         "_debugID": 2,
         "_renderedOutput": <TouchableHighlight
-          Ripple={undefined}
-          SelectableBackground={undefined}
-          SelectableBackgroundBorderless={undefined}
           activeOpacity={0.85}
-          background={undefined}
-          delayLongPress={undefined}
-          delayPressIn={undefined}
-          delayPressOut={undefined}
           disabled={false}
-          hitSlop={undefined}
-          onHideUnderlay={undefined}
-          onLayout={undefined}
-          onLongPress={undefined}
           onPress={[Function]}
-          onPressIn={undefined}
-          onPressOut={undefined}
-          onShowUnderlay={undefined}
           underlayColor="transparent"
 >
           <View
